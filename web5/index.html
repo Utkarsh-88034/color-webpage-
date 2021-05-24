@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="#" id="navbar_logo">COLOR</a>
+                <div class="navbar_toggle" id="mobile-menu" onclick="hamtransform()">
+                    <span class="bar" id="bar1"></span>
+                    <span class="bar" id="bar2"></span>
+                    <span class="bar" id="bar3"></span>
+                </div>
+                <ul id="navmenu">
+                    <li class="navbar_items" onclick="hamtransform()">
+                        <a href="#home" class="navbar__link">Home</a>
+                    </li>
+                    <li class="navbar_items" onclick="hamtransform()">
+                        <a href="#about" class="navbar__link" >About Us</a>
+                    </li>
+                    <li class="navbar_items" onclick="hamtransform()">
+                        <a href="#services" class="navbar__link" >Services</a>
+                    </li>
+                    <li class="navbar_btn" onclick="hamtransform()">
+                        <a href="#" class="button" id="signup-btn">Sign-up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero_container">
+            <h1 class="hero_heading">Choose your <span>colors</span></h1>
+            <p class="hero_discription">Unlimited Possibilities</p>
+            <button class="main_btn_2"><a href="">Explore</a></button>
+        </div>
+    </section>
+    <section class="main" id="about">
+        <div class="main_container">
+            <div class="img_container">
+                <figure class="main_img">
+                    <img src="img/unexpand.svg" alt="">
+                </figure>
+            </div>
+            <div class="main_content">
+                <h1 class="main_head">WHAT DO WE DO?</h1>
+                <h2 class="main_subhead">We Help Businesses Scale</h2>
+                <p>Schedule a call to know more about our services</p>
+                <div class="main_btn_2"><a href="#">Schedule your call</a></div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
